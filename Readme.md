@@ -43,10 +43,13 @@
 - Or Replace modules bar default to quickshell custom 💡
 
 ---
+## [ENABLE BLUR WINDOW HYPERLAND]
+- [blurhyperland](https://github.com/Fbrnsyhfbrn/BlurHyperland.git)
 
 ## ✨ Features
 - Simple Control Music and Minimalist ✨
 - Notification is in the middle 📜
+- Blur effect on windows in all applications 🎟️
 - Nothing has changed again from the default there 🛠️
 - If you use the [Network Manager Base KDE, Gnome, etc] you can activate / Remove bar in quicshell/ii/modules 💡
 - Tested on Arch Linux & other distros 🐧
