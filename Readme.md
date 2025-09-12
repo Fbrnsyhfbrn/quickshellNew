@@ -62,7 +62,7 @@
 ## ✨ Update Bar Preview
 ![Example](U-Bar.png)  
 
-##❗Illogical Impluse is still listed here, I just change what I want to change
+##❗*Illogical impulse* is still listed here, I just change what I want to change
 ![Example](original.png)
 ---
 
