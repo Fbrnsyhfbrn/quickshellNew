@@ -27,7 +27,7 @@ Item { // Bar content region
 
     // Background shadow
     Loader {
-        active: Config.options.bar.showBackground && Config.options.bar.cornerStyle === 1
+        active: Config.options.bar.showBackground && Config.options.bar.cornerStyle ===1
         anchors.fill: barBackground
         sourceComponent: StyledRectangularShadow {
             anchors.fill: undefined // The loader's anchors act on this, and this should not have any anchor
@@ -49,6 +49,19 @@ Item { // Bar content region
 
     FocusedScrollMouseArea { // Left side | scroll to change brightness
         id: barLeftSideMouseArea
+
+        Rectangle {
+            id: background
+            anchors {
+                fill: parent
+                topMargin: root.vertical ? 0 : 8
+                bottomMargin: root.vertical ? 0 : 8
+                leftMargin: root.vertical ? 0 : 10
+                rightMargin: root.vertical ? 0 : 10
+            }
+            color: Config.options?.bar.borderless ? "transparent" : Appearance.colors.colLayer1
+            radius: Appearance.rounding.full
+        }
 
         anchors {
             top: parent.top
@@ -283,7 +296,7 @@ Item { // Bar content region
                         Behavior on Layout.rightMargin {
                             animation: Appearance.animation.elementMoveFast.numberAnimation.createObject(this)
                         }
-                        MaterialSymbol {
+                       MaterialSymbol {
                             text: "mic_off"
                             iconSize: Appearance.font.pixelSize.larger
                             color: rightSidebarButton.colText
@@ -299,12 +312,14 @@ Item { // Bar content region
                             color: rightSidebarButton.colText
                         }
                     }
-                    /*MaterialSymbol {
-                        Layout.rightMargin: indicatorsRowLayout.realSpacing
-                        text: Network.materialSymbol
-                        iconSize: Appearance.font.pixelSize.larger
-                        color: rightSidebarButton.colText
-                    }*/
+                    // MaterialSymbol {
+                    //     Layout.rightMargin: indicatorsRowLayout.realSpacing
+                    //     text: Network.materialSymbol
+                    //     iconSize: Appearance.font.pixelSize.larger
+                    //     color: rightSidebarButton.colText
+                    // }
+
+
                     MaterialSymbol {
                         text: Bluetooth.bluetoothConnected ? "bluetooth_connected" : Bluetooth.bluetoothEnabled ? "bluetooth" : "bluetooth_disabled"
                         iconSize: Appearance.font.pixelSize.larger
@@ -312,6 +327,7 @@ Item { // Bar content region
                     }
                 }
             }
+
 
             SysTray {
                 visible: root.useShortenedForm === 0
