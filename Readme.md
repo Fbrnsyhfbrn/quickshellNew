@@ -58,7 +58,9 @@
 ## 👀 View
 ![Example](expl.png)  
 ![Example](Default.png)  
-![Example](notifandmedia.png)  
+![Example](notifandmedia.png)
+## ✨ Update Bar Preview
+![Example](U-Bar.png)  
 ---
 
 ## 📜 License
