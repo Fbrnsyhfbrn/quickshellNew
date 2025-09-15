@@ -39,8 +39,21 @@
 
 ## 🔧[TIPS ENABLE NETWORK]
 
-- Remove Folder quickshell/ii/modules/bar/network and quicshell/ii/modules/sidebar/* From the zip you get 🛠️
+- Remove Folder quickshell/ii/modules/bar/network.qml quickshell/ii/modules/bar/BarContent.qml and quicshell/ii/modules/sidebar/* From the zip you get 🛠️
 - Or Replace modules bar default to quickshell custom 💡
+- Or you can also turn on the command below
+```
+**/patch/to/.config/quickshell/ii/modules/bar/BarContent.qml**
+ search **MaterialSymbol** and turn off the command underneath or save it
+
+                    MaterialSymbol {
+                         Layout.rightMargin: indicatorsRowLayout.realSpacing
+                         text: Network.materialSymbol
+                         iconSize: Appearance.font.pixelSize.larger
+                         color: rightSidebarButton.colText
+                     }
+
+ ```
 
 ---
 ## [ENABLE BLUR WINDOW HYPERLAND]
