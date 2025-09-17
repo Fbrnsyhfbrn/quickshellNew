@@ -27,6 +27,7 @@
 ### 1. Install Illogical-impulse
 
 - install = https://github.com/end-4/dots-hyprland
+- Install Guide Illogical = [THE NEW ARCH LINUX HYPRLAND SETUP 2025 (Ft. End4 DotFiles)](https://youtu.be/VlAOmBOk7zw?si=UrgfVweORXxtCb8k)
 
 ### 2. . Backup sebelum replace
 
@@ -96,9 +97,13 @@ MIT License — use, modify, share freely 📜
 
 ## 🔗 Source
 - [end-4/dots-hyprland](https://github.com/end-4/dots-hyprland)  
-- [Hyprland](https://hypr.land/)  
+- [Hyprland](https://hypr.land/)
+- [THE NEW ARCH LINUX HYPRLAND SETUP 2025 (Ft. End4 DotFiles)](https://youtu.be/VlAOmBOk7zw?si=UrgfVweORXxtCb8k)
 
 ---
 
-## 💡 Quote
-> *"Keep your tools sharp, your code clean, and your mind open."*  
+## 💡 Thanks For
+- [end-4/dots-hyprland](https://github.com/end-4/dots-hyprland).
+- [Hyprland](https://hypr.land/).
+- [THE NEW ARCH LINUX HYPRLAND SETUP 2025 (Ft. End4 DotFiles)](https://youtu.be/VlAOmBOk7zw?si=UrgfVweORXxtCb8k).
+- All Archux Distro Based Arch and others
