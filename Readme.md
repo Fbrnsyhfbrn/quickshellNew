@@ -62,7 +62,7 @@ MaterialSymbol {
 - [blurhyperland](https://github.com/Fbrnsyhfbrn/BlurHyperland.git)
 
   
-## [☠️ Automatic settings for Hyprland (I'm not sure for that result).]
+## ☠️[Automatic settings for Hyprland (I'm not sure for that result).]
 - [auto setting](https://github.com/Fbrnsyhfbrn/Bar-Setting)
 
 ## ✨ Features
