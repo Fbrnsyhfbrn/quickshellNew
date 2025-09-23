@@ -85,6 +85,12 @@ MaterialSymbol {
 ![Example](original.png)
 ---
 
+## Settings Recommendations
+<img width="1100" height="750" alt="image" src="https://github.com/user-attachments/assets/9195e275-d90e-423a-8456-ac3da531b829" />
+<img width="1100" height="750" alt="image" src="https://github.com/user-attachments/assets/57d700b4-037d-4b68-ad84-62b502265cd8" />
+<img width="1100" height="750" alt="image" src="https://github.com/user-attachments/assets/6aaea2be-9463-4174-b491-589c4b5eac00" />
+
+
 ## 📜 License
 MIT License — use, modify, share freely 📜
 
