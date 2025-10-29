@@ -4,7 +4,6 @@
 ![Arch Linux](https://img.shields.io/badge/Arch_Linux-%231793D1.svg?style=for-the-badge&logo=arch-linux&logoColor=white)  
 ![Hyprland](https://img.shields.io/badge/Hyprland-black?style=for-the-badge&logo=linux&logoColor=white)  
 ![Quickshell](https://img.shields.io/badge/Quickshell-%23FF6F61.svg?style=for-the-badge&logo=gnometerminal&logoColor=white)  
-![License: MIT](https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge)  
 ![Made With Love](https://img.shields.io/badge/Made%20with-%E2%9D%A4-red?style=for-the-badge)  
 
 > Keep your Quickshell fresh, clean & fast 🔥  
